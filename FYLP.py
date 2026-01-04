@@ -11,8 +11,8 @@ url1 = "https://raw.githubusercontent.com/Emz-oamk/FysiikanLP/refs/heads/main/Li
 url2 = "https://raw.githubusercontent.com/Emz-oamk/FysiikanLP/refs/heads/main/Location.csv"
 
 # -Data
-acc = pd.read_csv('url1')
-loc = pd.read_csv('url2')
+acc = pd.read_csv(url1)
+loc = pd.read_csv(url2)
 
 # -Otsikko
 st.title('Fysiikan Loppuprojekti')
