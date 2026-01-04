@@ -6,9 +6,13 @@ from scipy.signal import butter, filtfilt
 import folium
 from streamlit_folium import st_folium
 
+# -URL
+url1 = "https://raw.githubusercontent.com/Emz-oamk/FysiikanLP/refs/heads/main/Linear%20Acceleration.csv"
+url2 = "https://raw.githubusercontent.com/Emz-oamk/FysiikanLP/refs/heads/main/Location.csv"
+
 # -Data
-acc = pd.read_csv('Linear Acceleration.csv')
-loc = pd.read_csv('Location.csv')
+acc = pd.read_csv('url1')
+loc = pd.read_csv('url2')
 
 # -Otsikko
 st.title('Fysiikan Loppuprojekti')
